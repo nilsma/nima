@@ -5,28 +5,31 @@
     }
 
 body {
-    background-color: #242D39;
+    background-image: url('../media/background_slice.png');
+    background-repeat: repeat-x;
     }
 /* END GENERAL */
 
 /* START HEADER */
 header {
-    color: white;
+    float: left;
     height: auto;
-//    margin-bottom: 0.5em;
     width: 100%;
     }
 
+/*
 div#header-container {
-    background-color: rgba(255,255,255,0.5);
+//    background-color: rgba(255,255,255,0.5);
     margin: auto;
     text-align: center;
 //    width: 50em;
     width: 100%; 
     }
+*/
 
 header h1 {
     background-color: #627086;
+    color: white;
     font-family: 'Titillium Web', sans-serif;
     font-size: 2em;
     font-weight: 200;
@@ -39,17 +42,57 @@ span#fname {
     margin: 0 0 0 0;
     }
 
-h2 {
+div#center {
+//    background-color: lightgreen;
+//    height: 3em;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    text-align: center;
+    width: 50em;
+    }
+
+nav {
+    border-bottom: 1px solid red;
+//    background-color: lightblue;
+//    background-color: #627086;
+//    background-color: rgba(255,255,255,0);
+    height: 3em;
+    margin: auto;
+    width: 21em;
+    }
+
+nav h2 {
     background-color: #627086;
     background-color: rgba(255,255,255,0);
     color: #ffffff;
+    float: left;
     font-family: 'Titillium Web', sans-serif;
     font-size: 1.5em;
     font-weight: 200;
     letter-spacing: 1px;
-    margin: 0 0 0.3em 0;
-    padding-bottom: 0.5em;
+    padding-bottom: 0.2em;
     text-align: center;
+    width: 7em;
+    }
+
+nav h2 a {
+    color: #fff;
+    text-decoration: none;
+    }
+
+nav h2:hover {
+    background-color: #798BA6;
+    }
+
+nav h2.active {
+
+    }
+
+h2#projects {
+    }
+
+h2#about {
     }
 /* END HEADER */
 
@@ -57,12 +100,13 @@ h2 {
 div#main-container {
 //    background-color: rgba(255,255,255,0);
     background-image: url('../media/background_slice.png');
-    bacground-repeat: repeat-y;
+    background-repeat: repeat-x;
     }
 /* END MAIN-CONTAINER */
 
 /* START PROJECTS-CONTAINER */
 div#projects-container {
+    display: block;
     margin: auto;
     width: 50em;
     }
@@ -71,6 +115,7 @@ div#projects-container {
 /* START PROJECTS-PRESENTATION */
 div#projects-presentation {
     height: auto;
+    float: left;
     }
 /* END PROJECTS-PRESENTATION */
 
@@ -111,7 +156,8 @@ section.project h3 {
 div.img-holder {
     float: left;
     height: 140px;
-    width: 18.8em;
+    margin-right: 0.2em;
+    max-width: 18.8em;
     }
 
 div.text-holder {
@@ -133,6 +179,14 @@ section.project a.project-url {
     left: 25px;
 }
 
+section#jgi div.img-holder {
+//    width: 70px;
+    }
+
+section#jgi img {
+//    max-width: 70px;
+    }
+
 section#konsoll img {
     height: 140px;
     width: 299px;
@@ -146,6 +200,7 @@ section#huldra {
 /* START FOOTER */
 footer {
     background-color: #242D39;
+    float: left;
     text-align: center;
     width: 100%;
     }
