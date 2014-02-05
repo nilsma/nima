@@ -5,6 +5,7 @@
     }
 
 body {
+    background-color: #242D39;
     background-image: url('../media/background_slice.png');
     background-repeat: repeat-x;
     }
@@ -14,21 +15,11 @@ body {
 header {
     float: left;
     height: auto;
+    margin-bottom: 2.5em;
     width: 100%;
     }
 
-/*
-div#header-container {
-//    background-color: rgba(255,255,255,0.5);
-    margin: auto;
-    text-align: center;
-//    width: 50em;
-    width: 100%; 
-    }
-*/
-
 header h1 {
-    background-color: #627086;
     color: white;
     font-family: 'Titillium Web', sans-serif;
     font-size: 2em;
@@ -36,27 +27,15 @@ header h1 {
     letter-spacing: 1px;
     margin: auto;
     padding-top: 0.5em;
+    text-align: center;
     }
 
 span#fname {
     margin: 0 0 0 0;
     }
 
-div#center {
-//    background-color: lightgreen;
-//    height: 3em;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 2em;
-    text-align: center;
-    width: 50em;
-    }
-
 nav {
     border-bottom: 1px solid red;
-//    background-color: lightblue;
-//    background-color: #627086;
-//    background-color: rgba(255,255,255,0);
     height: 3em;
     margin: auto;
     width: 21em;
@@ -86,21 +65,25 @@ nav h2:hover {
     }
 
 nav h2.active {
+    background-color: rgba(255, 100, 0, 0.2);
+    }
 
+nav h2:hover.active {
+    background-color: #798BA6;
     }
 
 h2#projects {
+
     }
 
 h2#about {
+
     }
 /* END HEADER */
 
 /* START MAIN-CONTAINER */
 div#main-container {
-//    background-color: rgba(255,255,255,0);
-    background-image: url('../media/background_slice.png');
-    background-repeat: repeat-x;
+
     }
 /* END MAIN-CONTAINER */
 
@@ -126,12 +109,12 @@ section.project {
     }
 
 section.project:hover {
-	cursor: pointer;
-	}
+    cursor: pointer;
+    }
 
 section.project:hover .text-holder {
-	background-color: #798BA6;
-	}
+    background-color: #798BA6;
+    }
 
 section.project h3,
 section.project p {
@@ -180,11 +163,11 @@ section.project a.project-url {
 }
 
 section#jgi div.img-holder {
-//    width: 70px;
+
     }
 
 section#jgi img {
-//    max-width: 70px;
+
     }
 
 section#konsoll img {
