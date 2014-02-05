@@ -1,0 +1,64 @@
+h1.name {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 0.85em;
+}
+
+div#main-container {
+	float: none;
+}
+
+div#projects-container {
+	display: inline;	
+	width: 292px;
+}
+
+div.text-holder {
+	font-size: 0.7em;
+	float: left;
+	height: 120px;
+	width: 292px;
+}
+
+div#projects-presentation {
+	display: block;
+	float: none;
+	margin: auto;
+	width: 300px;
+}
+
+section.project {
+	height: 130px;
+	width: 292px;
+//	width: 100%;
+}
+
+div.img-holder {
+	display: none;
+}
+
+section#jgi div.text-holder,
+section#konsoll div.text-holder {
+	height: 90px;
+}
+
+section#jgi.project,
+section#konsoll.project{
+	height: 100px;
+}
+
+section#shoplister div.text-holder,
+section#brk div.text-holder,
+section#jquery-nima div.text-holder,
+section#huldra div.text-holder {
+	height: 100px;
+}
+
+section#shoplister.project,
+section#brk.project,
+section#jquery-nima.project,
+section#huldra.project {
+	height: 110px;
+}

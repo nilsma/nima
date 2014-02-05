@@ -1,0 +1,78 @@
+h1.name {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 0.85em;
+}
+
+div#main-container {
+	float: none;
+}
+
+div#projects-container {
+	display: inline;	
+}
+
+div.text-holder {
+	display: inline;
+	font-size: 0.7em;
+	float: right;
+	width: 31em;
+}
+
+section.project {
+	width: 100%;
+}
+
+div.img-holder {
+	float: left;
+	height: 95px;
+	width: auto;
+}
+
+div.img-holder img {
+	float: left;
+}
+
+section.project {
+	height: 100px;
+}
+
+section#shoplister.project div.img-holder,
+section#jgi.project div.img-holder,
+section#brk.project div.img-holder,
+section#jquery-nima.project div.img-holder,
+section#huldra.project div.img-holder {
+	height: 90px;
+}
+
+section#shoplister.project div.img-holder img,
+section#jgi.project div.img-holder img,
+section#brk.project div.img-holder img,
+section#jquery-nima.project div.img-holder img {
+	max-height: 92px;
+	width: 200px;
+}
+
+section#huldra.project div.img-holder img {
+	max-height: 90px;
+	width: 200px;
+}
+
+section#konsoll img {
+    height: auto;
+    width: 200px;
+}
+
+section#shoplister div.text-holder,
+section#jgi div.text-holder,
+section#brk div.text-holder,
+section#jquery-nima div.text-holder,
+section#huldra div.text-holder {
+	height: 85px;
+}
+
+section#konsoll div.text-holder {
+	height: 88px;
+}

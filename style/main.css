@@ -1,0 +1,167 @@
+/* START GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: #242D39;
+    }
+/* END GENERAL */
+
+/* START HEADER */
+header {
+    color: white;
+    height: auto;
+//    margin-bottom: 0.5em;
+    width: 100%;
+    }
+
+div#header-container {
+    background-color: rgba(255,255,255,0.5);
+    margin: auto;
+    text-align: center;
+//    width: 50em;
+    width: 100%; 
+    }
+
+header h1 {
+    background-color: #627086;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 2em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: auto;
+    padding-top: 0.5em;
+    }
+
+span#fname {
+    margin: 0 0 0 0;
+    }
+
+h2 {
+    background-color: #627086;
+    background-color: rgba(255,255,255,0);
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin: 0 0 0.3em 0;
+    padding-bottom: 0.5em;
+    text-align: center;
+    }
+/* END HEADER */
+
+/* START MAIN-CONTAINER */
+div#main-container {
+//    background-color: rgba(255,255,255,0);
+    background-image: url('../media/background_slice.png');
+    bacground-repeat: repeat-y;
+    }
+/* END MAIN-CONTAINER */
+
+/* START PROJECTS-CONTAINER */
+div#projects-container {
+    margin: auto;
+    width: 50em;
+    }
+/* END PROJECTS-CONTAINER */
+
+/* START PROJECTS-PRESENTATION */
+div#projects-presentation {
+    height: auto;
+    }
+/* END PROJECTS-PRESENTATION */
+
+/* START PROJECT */
+section.project {
+    height: 140px;
+    margin-bottom: 0.3em;
+    }
+
+section.project:hover {
+	cursor: pointer;
+	}
+
+section.project:hover .text-holder {
+	background-color: #798BA6;
+	}
+
+section.project h3,
+section.project p {
+    color: #ffffff;
+    font-family: sans-serif;
+    margin-left: 0.3em;
+    }
+
+section.project p.timeline {
+    margin-top: 0.5em;
+    }
+
+section.project h3 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-top: 0.3em;
+    margin-bottom: 0.7em;
+    text-decoration: underline;
+    }
+
+div.img-holder {
+    float: left;
+    height: 140px;
+    width: 18.8em;
+    }
+
+div.text-holder {
+    background-color: #627086;
+    float: right;
+    height: 130px;
+    padding: 0.3em;
+    padding-right: 0.7em;
+    position: relative;
+    width: 30em;
+    }
+
+section.project a.project-url {
+    color: #D9E2FF;
+    font-family: sans-serif;
+    font-size: 0.85em;
+    position: absolute;
+    bottom: 5px;
+    left: 25px;
+}
+
+section#konsoll img {
+    height: 140px;
+    width: 299px;
+    }
+
+section#huldra {
+    margin-bottom: 0;
+    }
+/* END PROJECT */
+
+/* START FOOTER */
+footer {
+    background-color: #242D39;
+    text-align: center;
+    width: 100%;
+    }
+
+footer p {
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 0.5em;
+    }
+
+footer a,
+footer a:link,
+footer a:visited {
+    color: #ffffff;
+    font-size: 1.3em;
+    }
+/* END FOOTER */

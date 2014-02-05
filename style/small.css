@@ -1,0 +1,15 @@
+h1.name {
+	font-size: 0.8em;
+}
+
+h2 {
+	font-size: 0.7em;
+}
+
+div#main-container {
+	float: none;
+}
+
+div#projects-container {
+	width: 319px;
+}

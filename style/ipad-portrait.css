@@ -1,0 +1,49 @@
+h1.name {
+	font-size: 1.2em;
+}
+
+h2 {
+	font-size: 0.85em;
+}
+
+div#main-container {
+	float: none;
+}
+
+div#projects-container {
+	display: inline;	
+	width: 292px;
+}
+
+div.text-holder {
+	font-size: 0.7em;
+	float: right;
+	height: 118px;
+	margin-right: 10px;
+	width: 460px;
+}
+
+section.project {
+	height: 130px;
+	width: 100%;
+}
+
+div.img-holder {
+	float: left;
+	height: auto;
+	margin-left: 10px;
+	width: 256px;
+}
+
+div.img-holder img {
+	width: 266px;
+}
+
+section#konsoll div.img-holder {
+	width: 256px;
+}
+
+section#konsoll div.img-holder img {
+	height: auto;
+	width: 266px;
+}
