@@ -8,6 +8,7 @@ body {
     background-color: #242D39;
     background-image: url('../media/background_slice.png');
     background-repeat: repeat-x;
+    overflow-y: scroll;
     }
 /* END GENERAL */
 
@@ -210,15 +211,6 @@ section#about-me p {
     padding: 0 1em 0 1em;
     }
 
-section#about-me h4 {
-    color: #fff;
-    font-family: 'Titillium Web', sans-serif;
-    font-weight: 400;
-    letter-spacing: 1px;
-    margin-bottom: 0.7em;
-//    text-decoration: underline;
-    }
-
 section#about-me p#final-single {
     margin-bottom: 1em;
     }
@@ -226,7 +218,12 @@ section#about-me p#final-single {
 section#about-me div#left {
     border-right: 1px dashed #555;
     float: left;
-    width: 24em;
+    padding-left: 1em;
+    width: 23em;
+    }
+
+section#about-me div#left h3 {
+    
     }
 
 section#about-me div#right {
@@ -246,6 +243,7 @@ section#about-me ul {
 section#about-me ul li {
     color: #fff;
     font-family: sans-serif;
+    min-height: 1.5em;
     }
 /* END ABOUT-ME */
 
