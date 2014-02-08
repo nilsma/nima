@@ -6,8 +6,9 @@
 
 body {
     background-color: #242D39;
-    background-image: url('../media/background_slice.png');
-    background-repeat: repeat-x;
+    background-image: url('../media/rain_on_window_green.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
     }
 /* END GENERAL */
 
@@ -63,15 +64,18 @@ nav h2 a {
 
 nav h2:hover {
     background-color: #798BA6;
+    background-color: rgb(121, 139, 166);
+    background-color: rgba(121, 139, 166, 0.8);
     }
 
 nav h2.active {
-    background-color: rgb(121, 139, 166, 0.3);
+    background-color: rgb(121, 139, 166);
     background-color: rgba(121, 139, 166, 0.3);
     }
 
 nav h2:hover.active {
-    background-color: #798BA6;
+    background-color: rgb(121, 139, 166);
+    background-color: rgba(121, 139, 166, 0.8);
     }
 
 h2#projects {
@@ -85,7 +89,6 @@ h2#about {
 
 /* START MAIN-CONTAINER */
 div#main-container {
-
     }
 /* END MAIN-CONTAINER */
 
@@ -115,7 +118,8 @@ section.project:hover {
     }
 
 section.project:hover .text-holder {
-    background-color: #798BA6;
+    background-color: rgb(121, 139, 166);
+    background-color: rgba(121, 139, 166, 1);
     }
 
 section.project h3,
@@ -149,7 +153,8 @@ div.img-holder {
     }
 
 div.text-holder {
-    background-color: #627086;
+    background-color: rgb(121, 139, 166);
+    background-color: rgba(121, 139, 166, 0.85);
     float: right;
     height: 130px;
     padding: 0.3em;
@@ -179,10 +184,6 @@ section#konsoll img {
     height: 140px;
     width: 299px;
     }
-
-section#huldra {
-    margin-bottom: 0;
-    }
 /* END PROJECT */
 
 /* START ABOUT-ME */
@@ -193,7 +194,8 @@ div#presentation-container {
     }
 
 section#about-me {
-    background-color: #798BA6;
+    background-color: rgb(121, 139, 166);
+    background-color: rgba(121, 139, 166, 0.85);
     height: 32em;
     margin: 0 auto;
     width: 50em;
