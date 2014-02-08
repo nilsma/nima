@@ -6,9 +6,15 @@
 
 body {
     background-color: #242D39;
+<<<<<<< HEAD
+    background-image: url('../media/background_slice.png');
+    background-repeat: repeat-x;
+    overflow-y: scroll;
+=======
     background-image: url('../media/rain_on_window_green.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
+>>>>>>> 488a5fd207201cea401e893b66ac9f33fa153372
     }
 /* END GENERAL */
 
