@@ -7,8 +7,8 @@
 body {
     background-color: #242D39;
     background-image: url('../media/wall_stripped.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-repeat: repeat-y;
+    background-size: 100%;
     }
 /* END GENERAL */
 
@@ -51,7 +51,6 @@ nav h2 {
     font-size: 1.5em;
     font-weight: 200;
     letter-spacing: 1px;
-    padding-bottom: 0.2em;
     text-align: center;
     width: 7em;
     }
@@ -59,41 +58,26 @@ nav h2 {
 nav h2 a {
     color: #fff;
     display: block;
+    padding-bottom: 0.1em;
     text-decoration: none;
     }
 
 nav h2:hover {
-    background-color: #798BA6;
     background-color: rgb(121, 139, 166);
     background-color: rgba(121, 139, 166, 0.8);
     background-color: rgba(0, 0, 0, 0.6);
     }
 
 nav h2.active {
-    background-color: rgb(121, 139, 166);
-    background-color: rgba(121, 139, 166, 0.3);
+    background-color: rgb(0, 0 ,0);
     background-color: rgba(0, 0, 0, 0.3);
     }
 
 nav h2:hover.active {
-    background-color: rgb(121, 139, 166);
-    background-color: rgba(121, 139, 166, 0.8);
+    background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.6);
     }
-
-h2#projects {
-
-    }
-
-h2#about {
-
-    }
 /* END HEADER */
-
-/* START MAIN-CONTAINER */
-div#main-container {
-    }
-/* END MAIN-CONTAINER */
 
 /* START PROJECTS-CONTAINER */
 div#projects-container {
@@ -124,13 +108,11 @@ section.project:hover {
     cursor: pointer;
     }
 
-/*
 section.project:hover .text-holder {
     background-color: rgb(121, 139, 166);
     background-color: rgba(121, 139, 166, 1);
     background-color: rgba(0, 0, 0, 0.4);
     }
-*/
 
 section.project:hover div.text-holder > h3 {
     border-bottom: 1px solid red;
@@ -188,14 +170,6 @@ section.project a.project-url {
     left: 25px;
 }
 
-section#jgi div.img-holder {
-
-    }
-
-section#jgi img {
-
-    }
-
 section#konsoll img {
     height: 140px;
     width: 299px;
@@ -218,7 +192,12 @@ section#about-me {
     width: 50em;
     }
 
+section#about-me h3#top-heading {
+    text-align: center;
+    }
+
 section#about-me img {
+    display: none;
     float: left;
     margin: 0 1em 0.5em 0;
     height: 150px;
@@ -234,13 +213,6 @@ section#about-me p a:visited {
     color: #0971B2;
     }
 
-/*
-section#about-me p a:hover {
-    border-bottom: 1px solid red;
-    text-decoration: none;
-    }
-*/
-
 section#about-me p#final-single {
     margin-bottom: 1em;
     }
@@ -250,10 +222,6 @@ section#about-me div#left {
     float: left;
     padding-left: 1em;
     width: 23em;
-    }
-
-section#about-me div#left h3 {
-    
     }
 
 section#about-me div#right {
