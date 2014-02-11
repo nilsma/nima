@@ -9,6 +9,7 @@ body {
     background-image: url('../media/wall_stripped.png');
     background-repeat: repeat-y;
     background-size: 100%;
+    overflow-y: scroll;
     }
 /* END GENERAL */
 
