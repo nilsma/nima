@@ -96,3 +96,30 @@ section#huldra div.text-holder {
 section#konsoll div.text-holder {
     height: 88px;
 }
+
+h3 {
+    font-size: 0.95em;
+    }
+
+body#about section#about-me {
+    width: 100%;
+    }
+
+body#about section#about-me p, 
+body#about section#about-me ul {
+    font-size: 0.7em;
+    }
+
+body#about div#left,
+body#about div#right {
+    width: 288px;
+    }
+
+body#about div#right {
+    float: left;
+    padding-left: 1em;
+    }
+
+body#about div#left h3 {
+    width: 14em;
+    }

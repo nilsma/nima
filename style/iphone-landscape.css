@@ -3,7 +3,7 @@ h1.name {
 }
 
 h2 {
-    font-size: 0.85em;
+    font-size: 0.9em;
 }
 
 div#main-container {
@@ -76,3 +76,48 @@ section#huldra div.text-holder {
 section#konsoll div.text-holder {
     height: 88px;
 }
+
+div#center-nav {
+    margin: 0 auto;
+    width: 12em;
+}
+
+nav h2 {
+    font-size: 0.85em;
+}
+
+body#about section#about-me {
+    width: 100%;
+}
+
+body#about section#about-me p, 
+body#about section#about-me ul {
+    font-size: 0.9em;
+}
+
+h3 {
+    font-size: 0.95em;
+    }
+
+body#about div#left h3 {
+    width: 100%;
+}
+
+section#about-me div#left {
+    border-right: 1px dashed #555;
+    float: left;
+    margin: 0 auto;
+    padding-left: 1em;
+    width: 500px;
+    }
+
+section#about-me div#right {
+    float: left;
+    margin: 0 auto;
+    padding-left: 1em;
+    width: 500px;
+    }
+
+section#about-me div#right p {
+    padding-left: 0;
+    }
