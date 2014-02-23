@@ -26,7 +26,7 @@ function openProject(element) {
 		var child = nodeChildren[j];
 		if(child.className == 'project-url') {
 		    var url = child.getAttribute('href');
-		    window.open(url);
+		    window.location.href=url;
 		    break;
 		}
 	    }
