@@ -105,18 +105,19 @@ section.project {
     margin-bottom: 0.3em;
     }
 
-section.project:hover {
-    cursor: pointer;
-    }
-
 section.project:hover .text-holder {
     background-color: rgb(121, 139, 166);
     background-color: rgba(121, 139, 166, 1);
     background-color: rgba(0, 0, 0, 0.4);
     }
 
+section.project div.text-holder > h3 {
+    padding-bottom: 1px;
+    }
+
 section.project:hover div.text-holder > h3 {
     border-bottom: 1px solid red;
+    padding-bottom: 0px;
     text-decoration: none;
     }
 
@@ -127,6 +128,19 @@ section#about-me p {
     color: #ffffff;
     font-family: sans-serif;
     margin-left: 0.3em;
+    }
+
+section.project p,
+section#about-me h3,
+section#about-me p {
+    color: #ffffff;
+    }
+
+section.project h3 a,
+section.project p a,
+section#about-me h3 a {
+    color: #ffffff;
+    text-decoration: none;
     }
 
 section.project p.timeline {

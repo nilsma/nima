@@ -100,6 +100,4 @@ function setGray(project) {
 window.onload = function onLoad() {
     var elements = document.getElementsByClassName('project-url');
     removeLinks(elements);
-    hideProjects();
-    colorMe();
 }
